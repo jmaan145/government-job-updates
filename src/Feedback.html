@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="feedback.css">
+</head>
+
+<body>
+        <h1>Feedback Form</h1>
+
+        <form id="feedback-form" action="https://formbold.com/s/oWWQq" method="POST" enctype="multipart/form-data">
+            <div class="form-box">
+                <label for="name"><i class="fa fa-solid fa-user"></i>Name</label><br>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email"><i class="fa fa-solid fa-envelope"></i>Email</label><br>
+                <input type="email" id="email" name="email" required placeholder="abcd123@gmail.com">
+
+                <label for="dob"><i class="far fa-calendar-alt"></i>Date of Birth</label><br>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="state"><i class="fa-solid fa-location-dot"></i>State</label><br>
+                <select id="state" name="state" required>
+                    <option value="">Select an option</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chattisgarh">Chattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujrat">Gujrat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jammu & Kashmir">Jammu & Kashmir</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                </select>
+
+                <label for="message"><i class="fa-solid fa-comments" style="margin-right: 3px;"></i>Review</label><br>
+                <textarea name="message" id="message" rows="4" cols="10" required
+                    placeholder="Write your Suggestions..."></textarea>
+
+                <button type="button">Submit</button>
+            </div>
+        </form>
+</body>
+
+</html>
