@@ -37,10 +37,41 @@ a:hover, a:focus {
   margin: 0;
 }
 
-.Search {
-  padding-top: 0px;
-  margin: 0px;
+form{
+  padding-bottom: 20px;
 }
+
+form.Search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 60%;
+  background: #f1f1f1;
+}
+
+form.Search button {
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.Search button:hover {
+  background: #0b7dda;
+}
+
+form.Search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 
 h1 {
     text-align: center;
