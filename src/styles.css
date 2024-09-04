@@ -10,6 +10,15 @@ body {
   color: #444444;
 }
 
+#navbar {
+  padding: 2px;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
@@ -23,18 +32,9 @@ h4 { font-size: 1.5rem; }
 h5 { font-size: 1.25rem; }
 h6 { font-size: 1rem; }
 
-a {
-  text-decoration: none;
-  color: #3B82F6;
-}
-
-a:hover, a:focus {
-  color: #1D4ED8;
-}
-
-#navbar {
-  padding: 8px;
-  margin: 0;
+h2 {
+  text-align: center;
+  padding-top: 5px;
 }
 
 form{
@@ -71,33 +71,10 @@ form.Search::after {
   display: table;
 }
 
-
-
-h1 {
-    text-align: center;
-}
-
-
-#about {
-  display: flex;
+#jobs {
   max-width: 800px;
   margin: 0 auto;
-  padding: 8px;
-}
-
-#description {
-  width: 50%;
-  padding-right: 8px;
-  font-size: 1.25rem;
-}
-
-#banner {
-  width: 50%;
-}
-
-#banner-image {
-  border-radius: 5px;
-  width: 100%
+  padding: 0 8px;
 }
 
 #jobs-table{
@@ -123,24 +100,40 @@ h1 {
   padding: 8px;
  }
 
-
-h2 {
-  text-align: center;
+a {
+  text-decoration: none;
+  color: #3B82F6;
 }
 
-#jobs {
+a:hover, a:focus {
+  color: #1D4ED8;
+}
+
+#about {
+  display: flex;
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 8px;
+  padding: 8px;
+}
+
+#description {
+  width: 50%;
+  padding-right: 8px;
+  font-size: 1.25rem;
+}
+
+#banner {
+  width: 50%;
+}
+
+#banner-image {
+  border-radius: 5px;
+  width: 100%
 }
 
 h3 {
   margin-bottom: 4px;
   margin-top: 0;
-}
-
-.apply {
-  float: right;
 }
 
 #footer {
